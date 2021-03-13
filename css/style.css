@@ -43,8 +43,8 @@ body {
 }
 
 .header-content .logo {
-  height: 100px;
-  width: 100px;
+  height: 250px;
+  width: 250px;
 }
 
 .title {
@@ -72,8 +72,14 @@ body {
 
 .grid-2 {
   display: grid;
-  grid-grap: 20px;
+  list-style: circle;
+  /* grid-grap: 20px; */
   grid-template-columns: repeat(2, 1fr);
+}
+
+.lista {
+  list-style: none; 
+  text-align: left;
 }
 
 .text-center {
